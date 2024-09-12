@@ -1,0 +1,7 @@
+[Application settings for kitty]
+Description=Application settings for kitty
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=kitty
+wmclassmatch=1
