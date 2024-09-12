@@ -11,3 +11,6 @@
 
 # History files
 /.*history
+
+# NixOS hardware-config
+.config/nix/hardware-configuration.nix
