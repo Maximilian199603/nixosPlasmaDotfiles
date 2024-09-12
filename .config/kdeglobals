@@ -1,0 +1,149 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025000000000000001
+ColorEffect=2
+ContrastAmount=0.10000000000000001
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=146,43,40
+BackgroundNormal=30,34,51
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundInactive=102,106,115
+ForegroundLink=197,47,36
+ForegroundNegative=237,37,78
+ForegroundNeutral=255,106,0
+ForegroundNormal=195,199,209
+ForegroundPositive=113,247,159
+ForegroundVisited=82,148,226
+
+[Colors:Complementary]
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundLink=197,47,36
+
+[Colors:Selection]
+BackgroundAlternate=144,40,36
+BackgroundNormal=144,40,36
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundInactive=255,255,255
+ForegroundLink=197,47,36
+ForegroundNegative=237,37,78
+ForegroundNeutral=255,106,0
+ForegroundNormal=255,255,255
+ForegroundPositive=113,247,159
+ForegroundVisited=189,195,199
+
+[Colors:Tooltip]
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundInactive=102,106,115
+ForegroundLink=197,47,36
+ForegroundNegative=237,37,78
+ForegroundNeutral=255,106,0
+ForegroundNormal=211,218,227
+ForegroundPositive=113,247,159
+ForegroundVisited=82,148,226
+
+[Colors:View]
+BackgroundAlternate=31,35,51
+BackgroundNormal=22,25,37
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundInactive=102,106,115
+ForegroundLink=197,47,36
+ForegroundNegative=237,37,78
+ForegroundNeutral=255,106,0
+ForegroundNormal=211,218,227
+ForegroundPositive=113,247,159
+ForegroundVisited=124,183,255
+
+[Colors:Window]
+BackgroundAlternate=47,52,63
+BackgroundNormal=24,27,40
+DecorationFocus=197,47,36
+DecorationHover=197,47,36
+ForegroundActive=197,47,36
+ForegroundInactive=102,106,115
+ForegroundLink=197,47,36
+ForegroundNegative=237,37,78
+ForegroundNeutral=255,106,0
+ForegroundNormal=211,218,227
+ForegroundPositive=113,247,159
+ForegroundVisited=179,13,191
+
+[DirSelect Dialog]
+DirSelectDialog Size=820,584
+History Items[$e]=file:$HOME/Pictures/Wallpapers
+
+[General]
+AccentColor=197,47,36
+ColorScheme=personal
+ColorSchemeHash=309cb58db37a43ca7bdd068ffb0b76a55444b7a6
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+accentColorFromWallpaper=true
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeForeground=211,218,227
+frame=61,174,233
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115
+inactiveFrame=239,240,241
