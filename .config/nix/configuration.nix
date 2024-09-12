@@ -3,7 +3,9 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, ... }:
-
+let
+	unstable-pkgs = import <nixpkgs-unstable> {config.allowUnfree = true;};
+in
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -135,7 +137,9 @@
 	jdk17
 	rustup
 	python3
-  ];
+  ] ++ ( with unstable-pkgs; [
+
+  ]);
 
   # Enable Firefox
   programs.firefox.enable = true;
