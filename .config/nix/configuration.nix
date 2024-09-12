@@ -66,7 +66,7 @@ in
   services.printing.enable = true;
 
   # Enable Bluetooth
-  hardware.bluetooth.enable = true;
+  #hardware.bluetooth.enable = true;
   #hardware.bluetooth.powerOnboot = true;
   services.blueman.enable = true;
 
