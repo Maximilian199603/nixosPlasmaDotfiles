@@ -1,0 +1,16 @@
+[Common]
+OutlineCloseButton=true
+ShadowSize=ShadowNone
+
+[Windeco]
+ButtonSize=ButtonTiny
+DrawBorderOnMaximizedWindows=true
+TitleAlignment=AlignCenter
+
+[Windeco Exception 0]
+BorderSize=0
+Enabled=true
+ExceptionPattern=.*
+ExceptionType=0
+HideTitleBar=true
+Mask=0
