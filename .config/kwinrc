@@ -26,6 +26,9 @@ Rows=2
 BlurStrength=2
 NoiseStrength=0
 
+[ModifierOnlyShortcuts]
+Meta=
+
 [NightColor]
 Active=true
 Mode=Times
@@ -63,6 +66,3 @@ Scale=1
 [org.kde.kdecoration2]
 BorderSizeAuto=false
 ButtonsOnRight=HAIX
-
-[ModifierOnlyShortcuts]
-Meta=
