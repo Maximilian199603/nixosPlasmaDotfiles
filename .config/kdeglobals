@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=146,43,40
+BackgroundAlternate=163,57,77
 BackgroundNormal=30,34,51
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
 ForegroundInactive=102,106,115
-ForegroundLink=197,47,36
+ForegroundLink=220,68,89
 ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=195,199,209
@@ -35,19 +35,19 @@ ForegroundPositive=113,247,159
 ForegroundVisited=82,148,226
 
 [Colors:Complementary]
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
-ForegroundLink=197,47,36
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
+ForegroundLink=220,68,89
 
 [Colors:Selection]
-BackgroundAlternate=144,40,36
-BackgroundNormal=144,40,36
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
+BackgroundAlternate=160,55,73
+BackgroundNormal=160,55,73
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
 ForegroundInactive=255,255,255
-ForegroundLink=197,47,36
+ForegroundLink=220,68,89
 ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=255,255,255
@@ -57,11 +57,11 @@ ForegroundVisited=189,195,199
 [Colors:Tooltip]
 BackgroundAlternate=47,52,63
 BackgroundNormal=53,57,69
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
 ForegroundInactive=102,106,115
-ForegroundLink=197,47,36
+ForegroundLink=220,68,89
 ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=211,218,227
@@ -71,11 +71,11 @@ ForegroundVisited=82,148,226
 [Colors:View]
 BackgroundAlternate=31,35,51
 BackgroundNormal=22,25,37
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
 ForegroundInactive=102,106,115
-ForegroundLink=197,47,36
+ForegroundLink=220,68,89
 ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=211,218,227
@@ -85,11 +85,11 @@ ForegroundVisited=124,183,255
 [Colors:Window]
 BackgroundAlternate=47,52,63
 BackgroundNormal=24,27,40
-DecorationFocus=197,47,36
-DecorationHover=197,47,36
-ForegroundActive=197,47,36
+DecorationFocus=220,68,89
+DecorationHover=220,68,89
+ForegroundActive=220,68,89
 ForegroundInactive=102,106,115
-ForegroundLink=197,47,36
+ForegroundLink=220,68,89
 ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=211,218,227
@@ -98,10 +98,10 @@ ForegroundVisited=179,13,191
 
 [DirSelect Dialog]
 DirSelectDialog Size=820,584
-History Items[$e]=file:$HOME/Pictures/Wallpapers
+History Items[$e]=file:$HOME/Pictures/Wallpapers,file:$HOME/Pictures/Wallpapers
 
 [General]
-AccentColor=197,47,36
+AccentColor=220,68,89
 ColorScheme=personal
 ColorSchemeHash=309cb58db37a43ca7bdd068ffb0b76a55444b7a6
 TerminalApplication=kitty
@@ -137,6 +137,58 @@ View Style=DetailTree
 
 [PreviewSettings]
 MaximumRemoteSize=0
+
+[Shortcuts]
+Activate Next Tab=
+Activate Previous Tab=
+ActualSize=
+AddBookmark=
+Back=
+BackwardWord=
+Begin=
+BeginningOfLine=
+Close=
+Copy=Ctrl+C
+CreateFolder=
+Cut=Ctrl+X
+DeleteFile=
+DeleteWordBack=
+DeleteWordForward=
+DocumentBack=
+DocumentForward=
+End=
+EndOfLine=
+Forward=
+ForwardWord=
+FullScreen=F11
+GotoLine=
+Help=
+Home=
+KeyBindings=
+New=
+Next=
+NextCompletion=
+Open=
+OpenContextMenu=
+OpenMainMenu=
+Paste=Ctrl+V
+Paste Selection=
+PrevCompletion=
+Print=Ctrl+Print
+Prior=
+Quit=
+RenameFile=
+Revert=Ctrl+Y
+RotateDown=
+RotateUp=
+ShowHideHiddenFiles=Ctrl+H
+ShowMenubar=
+SubstringCompletion=
+TextCompletion=
+Up=
+WhatsThis=
+ZoomIn=
+ZoomOut=
 
 [WM]
 activeBackground=47,52,63
