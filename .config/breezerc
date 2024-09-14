@@ -4,13 +4,12 @@ ShadowSize=ShadowNone
 
 [Windeco]
 ButtonSize=ButtonTiny
-DrawBorderOnMaximizedWindows=true
 TitleAlignment=AlignCenter
 
 [Windeco Exception 0]
-BorderSize=0
+BorderSize=3
 Enabled=true
 ExceptionPattern=.*
 ExceptionType=0
 HideTitleBar=true
-Mask=0
+Mask=16
