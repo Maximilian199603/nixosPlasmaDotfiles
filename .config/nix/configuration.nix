@@ -56,6 +56,7 @@ in
   environment.plasma6.excludePackages = with pkgs; [
   	kdePackages.konsole
 	kdePackages.oxygen
+	kdePackages.oxygen-icons
   ];
 
   # Configure keymap in X11
