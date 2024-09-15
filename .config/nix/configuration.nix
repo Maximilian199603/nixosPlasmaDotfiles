@@ -138,6 +138,7 @@ in
 	speedtest-cli
 	btop
 	killall
+	dos2unix
 	# Code Compilers/Interpreters
 	dotnet-sdk_8
 	jdk17
