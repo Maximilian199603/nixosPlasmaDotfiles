@@ -1,0 +1,72 @@
+/* wallpaper-chooser.rasi */
+configuration {
+    font: "JetBrainsMono Nerd Font Medium 12";
+    show-icons: false;  /* Disable icons */
+}
+
+@theme "/dev/null"
+
+* {
+    bg: #1e1e2e;      /* Background color */
+    bg-alt: #585b70;  /* Alternate background color */
+    bg-selected: #313244; /* Selected item background color */
+    fg: #cdd6f4;      /* Foreground color */
+    fg-alt: #7f849c;  /* Alternate foreground color */
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    width: 40%;
+    background-color: @bg;
+}
+
+element {
+    padding: 8px 12px;
+    background-color: transparent;
+    text-color: @fg-alt;
+}
+
+element selected {
+    text-color: @fg;
+    background-color: @bg-selected;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+entry {
+    padding: 12px;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    columns: 1;
+    lines: 10;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    background-color: @bg;
+}
+
+prompt {
+    enabled: true;
+    padding: 12px 0 0 12px;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
