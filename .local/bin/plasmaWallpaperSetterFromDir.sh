@@ -30,7 +30,7 @@ if [ ! -d "$1" ]; then
     random_file=$FALLBACK_IMAGE
 else
     # Get the list of files in the directory
-    files=($(find "$1" -maxdepth 1 -type f ! -name ".*"))
+    files=($(find "$1" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.bmp" -o -iname "*.tiff" -o -iname "*.gif" \) ! -name ".*"))
 
     # Check if there are any files in the directory
     if [ ${#files[@]} -eq 0 ]; then
