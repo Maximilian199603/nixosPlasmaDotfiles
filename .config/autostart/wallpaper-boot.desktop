@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/edgelordkirito/.local/bin/plasmaAutoStartRandomWallpaper.sh
+Icon=application-x-shellscript
+Name=wallpaper-boot
+Type=Application
+X-KDE-AutostartScript=true
