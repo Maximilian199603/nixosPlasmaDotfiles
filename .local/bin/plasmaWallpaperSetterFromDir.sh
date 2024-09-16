@@ -6,8 +6,8 @@ FALLBACK_IMAGE="$HOME/Pictures/Wallpapers/.fallback.jpg"
 # Log directory and file
 LOG_DIR="$HOME/.local/share/plasma-wallpaper-logs"
 mkdir -p "$LOG_DIR"  # Create directory if it does not exist
-TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-LOG_FILE="$LOG_DIR/plasma-wallpaper_$TIMESTAMP.log"
+TIMESTAMP=$(date +"%d%m%Y_%H%M%S")
+LOG_FILE="$LOG_DIR/plasma-random-wallpaper-picker_$TIMESTAMP.log"
 
 # Write output to log file
 exec > >(tee -a "$LOG_FILE") 2>&1
@@ -48,14 +48,4 @@ if [ ! -f "$random_file" ]; then
     random_file=$FALLBACK_IMAGE
 fi
 
-# Set the wallpaper for all desktops using qdbus
-qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "
-var allDesktops = desktops();
-for (i=0;i<allDesktops.length;i++) {
-    d = allDesktops[i];
-    d.wallpaperPlugin = 'org.kde.image';
-    d.currentConfigGroup = Array('Wallpaper', 'org.kde.image', 'General');
-    d.writeConfig('Image', 'file://$random_file')
-}"
-
-echo "Wallpaper set to: $random_file"
+plasmaWallpaperSetter.sh "$random_file"

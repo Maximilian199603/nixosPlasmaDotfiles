@@ -3,7 +3,7 @@
 # Log directory and file
 LOG_DIR="$HOME/.local/share/plasma-wallpaper-logs"
 mkdir -p "$LOG_DIR"  # Create directory if it does not exist
-TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+TIMESTAMP=$(date +"%d%m%Y_%H%M%S")
 LOG_FILE="$LOG_DIR/plasma-wallpaper_$TIMESTAMP.log"
 
 # Write output to log file
