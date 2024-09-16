@@ -48,4 +48,4 @@ if [ ! -f "$random_file" ]; then
     random_file=$FALLBACK_IMAGE
 fi
 
-plasmaWallpaperSetter.sh "$random_file"
+$HOME/.local/bin/plasmaWallpaperSetter.sh "$random_file"
