@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set the fallback image path
-FALLBACK_IMAGE="$HOME/Pictures/Wallpapers/.fallback.jpg"
+FALLBACK_IMAGE="$HOME/.fallback.jpg"
 
 # Log directory and file
 LOG_DIR="$HOME/.local/share/plasma-wallpaper-logs"
