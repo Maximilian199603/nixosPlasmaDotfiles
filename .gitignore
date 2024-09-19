@@ -14,3 +14,6 @@
 
 # NixOS hardware-config
 .config/nix/hardware-configuration.nix
+
+# Kitty color configuration
+.config/kitty/color.conf
