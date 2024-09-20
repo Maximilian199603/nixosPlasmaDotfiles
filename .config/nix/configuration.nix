@@ -145,7 +145,7 @@ in
 	rustup
 	python3
   ] ++ ( with unstable-pkgs; [
-
+  	wallust
   ]);
 
   # Enable Firefox
